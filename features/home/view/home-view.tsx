@@ -3,8 +3,7 @@ import { motion } from "framer-motion";
 import { Button } from "components/ui/Button";
 import { Card } from "components/ui/Card";
 import { CardContent } from "components/ui/CardContent";
-
-const logo = "/assets/images/logo.png"; // Adjust the path as necessary
+import logo from "assets/images/logo.png";
 
 export default function HomeView() {
   return (
