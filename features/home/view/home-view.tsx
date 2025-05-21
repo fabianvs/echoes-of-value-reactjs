@@ -7,7 +7,7 @@ import logo from "assets/images/logo.png";
 
 export default function HomeView() {
   return (
-    <div className="min-h-screen bg-[#111] text-[#cceeff] p-4 font-sans">
+    <div className="min-h-full bg-[#111] text-[#cceeff] p-4 font-sans">
       <header className="text-center border-b border-[#333] pb-10 mb-10">
         <motion.img
           src={logo}
